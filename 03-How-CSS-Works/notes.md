@@ -37,7 +37,7 @@
 - Website rendering: the visual formatting model
 - Final rendered website
 
-![load up a webpage](test.png)
+![load up a webpage](https://github.com/thtop/jonas-css-notes/blob/master/03-How-CSS-Works/imgs/load-up-a-webpage.PNG)
 
 ---
 
