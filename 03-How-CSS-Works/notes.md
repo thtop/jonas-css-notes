@@ -29,7 +29,7 @@
 ## How CSS Works Behind the Scenes: An Overview
 
 - Load HTML -> Parse HTML --> DOM (Document Object Model)
-- ..........-> Load CSS --> Pasrse CSS
+- --------- -> Load CSS --> Pasrse CSS
 - ------------------------> Resolve conflicting CSS declarations (cascade)
 - ------------------------> Process final CSS values
 - -------------------------------------------------- --> CSSOM (CSS Object Model)
@@ -37,7 +37,7 @@
 - Website rendering: the visual formatting model
 - Final rendered website
 
-![load up a webpage](load-up-a-webpage.png)
+![load up a webpage](test.png)
 
 ---
 
