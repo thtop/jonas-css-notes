@@ -29,7 +29,7 @@
 ## How CSS Works Behind the Scenes: An Overview
 
 - Load HTML -> Parse HTML --> DOM (Document Object Model)
-- --------- -> Load CSS --> Pasrse CSS
+- -------------- -> Load CSS --> Pasrse CSS
 - ------------------------> Resolve conflicting CSS declarations (cascade)
 - ------------------------> Process final CSS values
 - -------------------------------------------------- --> CSSOM (CSS Object Model)
@@ -198,3 +198,23 @@ header {
 ---
 
 ## How CSS is Parsed, Part 3: Inheritance
+
+```css
+.parent {
+  font-size: 20px;
+  line-height: 150%;
+}
+
+.chile {
+  font-size: 25px;
+}
+```
+
+**Summary**
+
+- Inheritance passes the values for some specific properties from parents to children - **more maintainable code**;
+- Properties related to text are inhrited: font-family, font-size, color, etc;
+- The computered value of a property is what gets inherited, **not** the declared value.
+- Inheritance of a property only works if no one declares a value for that property;
+- The _inherit_ keyword forces inheritance on a certain property;
+- The _initial_ keyword resets a property to its initial value;
