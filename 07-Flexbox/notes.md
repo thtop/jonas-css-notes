@@ -27,7 +27,7 @@
 - CROSS AXIS
 - **align-items**: **stretch** | flex-start | flex-end | center | baseline
 - Multi-line
-- **align-content**: **stretch** | flex-start | flex-end | center | space-between | space-around 
+- **align-content**: **stretch** | flex-start | flex-end | center | space-between | space-around
 
 ## Item
 
@@ -38,3 +38,5 @@
 - flex-shrink: 1 | <int>
 - flex-bases: auto | <length> (%, px)
 - -> flex: 0 1 300px;
+
+## How and why to use CSS custom properties
