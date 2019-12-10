@@ -7,6 +7,16 @@
 - CSS Grid works perfectly together with Flexbox, which is best to handle one-dimesional components and layouts;
 - CSS Grid completely changes the way that we envision and build two-dimensional layouts.
 
+**CSS Grid Terminology 1**
+![CSS Grid Terminology 1](https://github.com/thtop/jonas-css-notes/blob/master/08-Grid-Layouts/imgs/01-grid-terminology.png)
+
+**CSS Grid Terminology 2**
+![CSS Grid Terminology 2](https://github.com/thtop/jonas-css-notes/blob/master/08-Grid-Layouts/imgs/02-grid-terminology.png)
+
+**CSS Grid Properties Overview**
+![CSS Grid Properties Overview](https://github.com/thtop/jonas-css-notes/blob/master/08-Grid-Layouts/imgs/03-grid-properties-overview.png)
+
+
 ### Quick Setup for This Section
 
 ### Creating Our First Grid
