@@ -1,5 +1,20 @@
 ## A Quick Introduction to CSS Grid Layouts
 
+**Sass Install**
+- [Ruby Installer](https://rubyinstaller.org/downloads/) -> Download
+- Select: "Ruby+Devkit 2.6.5-1 (x64)" and install
+- Go to [https://sass-lang.com/](https://sass-lang.com/)
+- `gem install sass`
+
+**Sass Structor**
+- root
+- root -> css
+- root -> scss -> style.scss
+
+**Sass Command:**
+- `sass scss/style.scss css/style.css`
+- `sass --watch scss/style.scss:css/style.css`
+
 ### Why CSS Grid: A Whole New Mindset
 
 - CSS Grid Layout is a brand new module that brings a two-dimensional grid system to CSS for the first tiem;
@@ -51,8 +66,8 @@
 
 ```
 
-**CSS**
-```css
+**SCSS**
+```scss
 .container {
   background-color: #eee;
   width: 1000px;
@@ -72,30 +87,30 @@
   font-size: 30px;
   font-family: sans-serif;
   color: white;
-}
 
-.item.item--1 {
-  background-color: orangered;
-}
+  &--1 {
+    background-color: orangered;
+  }
 
-.item.item--2 {
-  background-color: yellowgreen;
-}
+  &--2 {
+    background-color: yellowgreen;
+  }
 
-.item.item--3 {
-  background-color: blueviolet;
-}
+  &--3 {
+    background-color: blueviolet;
+  }
 
-.item.item--4 {
-  background-color: palevioletred;
-}
+  &--4 {
+    background-color: palevioletred;
+  }
 
-.item.item--5 {
-  background-color: royalblue;
-}
+  &--5 {
+    background-color: royalblue;
+  }
 
-.item.item--6 {
-  background-color: goldenrod;
+  &--6 {
+    background-color: goldenrod;
+  }
 }
 
 ```

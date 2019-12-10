@@ -17,28 +17,28 @@
   font-size: 30px;
   font-family: sans-serif;
   color: white;
-}
 
-.item.item--1 {
-  background-color: orangered;
-}
+  &--1 {
+    background-color: orangered;
+  }
 
-.item.item--2 {
-  background-color: yellowgreen;
-}
+  &--2 {
+    background-color: yellowgreen;
+  }
 
-.item.item--3 {
-  background-color: blueviolet;
-}
+  &--3 {
+    background-color: blueviolet;
+  }
 
-.item.item--4 {
-  background-color: palevioletred;
-}
+  &--4 {
+    background-color: palevioletred;
+  }
 
-.item.item--5 {
-  background-color: royalblue;
-}
+  &--5 {
+    background-color: royalblue;
+  }
 
-.item.item--6 {
-  background-color: goldenrod;
+  &--6 {
+    background-color: goldenrod;
+  }
 }
