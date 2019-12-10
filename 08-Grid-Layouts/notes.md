@@ -16,10 +16,90 @@
 **CSS Grid Properties Overview**
 ![CSS Grid Properties Overview](https://github.com/thtop/jonas-css-notes/blob/master/08-Grid-Layouts/imgs/03-grid-properties-overview.png)
 
+---
 
 ### Quick Setup for This Section
 
+- [CodePen](https://codepen.io/)
+
+---
+
 ### Creating Our First Grid
+
+**HTML**
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Grid</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="item item--1">1: Orange</div>
+      <div class="item item--2">2: Green</div>
+      <div class="item item--3">3: Villet</div>
+      <div class="item item--4">4: Pink</div>
+      <div class="item item--5">5: Blue</div>
+      <div class="item item--6">6: Brown</div>
+    </div>
+  </body>
+</html>
+
+```
+
+**CSS**
+```css
+.container {
+  background-color: #eee;
+  width: 1000px;
+  margin: 30px auto;
+
+  display: grid;
+  grid-template-rows: 150px 150px;
+  grid-template-columns: 150px 150px 150px;
+
+  /* grid-row-gap: 30px;
+  grid-column-gap: 50px; */
+  grid-gap: 30px;
+}
+
+.item {
+  padding: 20px;
+  font-size: 30px;
+  font-family: sans-serif;
+  color: white;
+}
+
+.item.item--1 {
+  background-color: orangered;
+}
+
+.item.item--2 {
+  background-color: yellowgreen;
+}
+
+.item.item--3 {
+  background-color: blueviolet;
+}
+
+.item.item--4 {
+  background-color: palevioletred;
+}
+
+.item.item--5 {
+  background-color: royalblue;
+}
+
+.item.item--6 {
+  background-color: goldenrod;
+}
+
+```
+---
 
 ### Getting Familiar with the `fr` unit
 
